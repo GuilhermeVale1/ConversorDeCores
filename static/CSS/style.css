@@ -43,4 +43,15 @@ body{
     
     
 }
+#colorblock{
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    margin: 20%;
+}
+#colorblock *{
+    margin-top: 5px;
+    padding: 10%;
+    
+}
 
