@@ -4,13 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel = "stylesheet" href = "static/CSS/style.css" />
+    <link rel = "stylesheet" href = "static/CSS/style.css"/>
 
 
 
 </head>
 <body>
-    <h1> sadasdasd <h1/>
-    
+    <header class="cabecalho">
+        <h1> Conversor de cores</h1>
+    </header>
+
+    <section class="conteiner">
+      
+        <div class="ConvertRGB">
+            <form action="">
+                <h2>Algoritmo de conversão de sistemas de cores</h2>
+               <div id="rgb">
+               
+                   R
+                   <br>
+                   <input id="R" type="number" min="0" max="255">
+                   <br>
+                   G
+                   <br>
+                   <input id="G" type="number" min="0" max="255">
+                   <br>
+                   B
+                   <br>
+                   <input id="B" type="number" min="0" max="255">
+   
+               </div>
+               Converter para:
+               <select name="HSL" id="ops">
+                   <option value="HSL">HSL</option>
+                   <option value="CMY"> CMY(K)</option>
+               </select>
+               <br>
+               <button type="button" onclick="convertRGB()">Enviar</button>
+               
+   
+          </form>
+
+          <div id="HSL"></div>
+          <div class="CMY"></div>
+
+          
+
+        </div>
+        
+        
+    </section>
+
+
+    <script src="static/JS/script.js"></script>    
 </body>
 </html>
