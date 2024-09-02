@@ -61,13 +61,20 @@ body{
     height: 30%;
 }
 .inputimg{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgb(0, 0, 0);
     color: white;
     width: 30%;
     margin-top: 30vh;
     margin-bottom: 10%;
     padding: 5%;
     border: 1px solid white;
+}
+.inputim{
+    color: white;
+}
+#canvas {
+    width: 100%;
+    
 }
 
 
