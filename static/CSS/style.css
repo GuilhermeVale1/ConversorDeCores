@@ -22,27 +22,24 @@ body{
     justify-content: center;
     color: white;
     width: 30%;
+    
     border: 1px solid white;
     padding: 5%;
     background-color: rgb(255, 150, 7);
+    margin-bottom: 10%;
 }
 .conteiner{
     
     width: 100%;
+    height: 30%;
     display: flex;
     justify-content: center;
-   
+    border-bottom: 5px solid white;
+    
 
     
 }
-.ConvertRGB select{
-    width: 20%;
-    margin-top: 3%;
-    margin-bottom: 5%;
 
-    
-    
-}
 #colorblock{
     width: 50%;
     height: 50%;
@@ -52,6 +49,25 @@ body{
 #colorblock *{
     margin-top: 5px;
     padding: 10%;
+  
     
 }
+.conteinerimg{
+    display: flex;
+    justify-content: center;
+    background-color: #FF9607;
+   
+    width: 100%;
+    height: 30%;
+}
+.inputimg{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 30%;
+    margin-top: 30vh;
+    margin-bottom: 10%;
+    padding: 5%;
+    border: 1px solid white;
+}
+
 
